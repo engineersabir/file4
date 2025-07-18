@@ -173,7 +173,7 @@ nav{
 .start-btn {
 
     text-decoration: none;
-    
+
     color: #fff;
     background-color: #ff5361;
     width: 80%;
@@ -198,4 +198,16 @@ nav{
     font-size: 28px;
     margin-bottom: 30px;
     font-weight: 500;
+}
+/*----footer----*/
+
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
 }
