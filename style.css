@@ -169,16 +169,33 @@ nav{
     color: #fff;
     font-size: 26px;
 }
-  div .start-tbn {
+  
+.start-btn {
+
     text-decoration: none;
-    color: #ff5361;
+    
     color: #fff;
+    background-color: #ff5361;
     width: 80%;
     max-width: 350px;
     display: block;
     text-align: center;
     margin: 60px auto;
-    padding:16px;
+    padding: 16px;
     border-radius: 60px;
     font-size: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
 }
