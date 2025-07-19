@@ -225,7 +225,7 @@ nav{
 .active{
     position: relative;
 }
-.active{
+.active::after{
     content: '';
     background: #fff;
     width: 25px;
@@ -301,7 +301,7 @@ nav .fa-bars{
     display: block;
 }
 .search-bar form input{
-    border-bottom: 1 solid #ddd;
+    border-bottom: 1px solid #ddd;
     width: 100%;
     margin-top:20px ;
     margin-bottom: 10px;
@@ -336,7 +336,7 @@ nav .fa-bars{
 .stories p{
     font-size: 22px;
 }
-.start-msg{
+.about-msg{
     font-size: 15px;
 }
 
